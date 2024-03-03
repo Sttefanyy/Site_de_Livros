@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<body>
+
+  <div class='cabeçalho'>
+  
+  <nav class="opçoes">
+    
+      <ul>
+        <li><a href='index.html' button class='home'>Home</a></li> 
+       <li><a href='recomendações.html'button class='recom'>Recomendações</a></li>
+        <li><a href='autores.html' button class='autor'>Autores</a></li>    
+       <li><a href='leitura.html'button class='leituraAb'>Incentivo à leitura</a></li>
+    </ul>
+    
+  </nav>
+
+  </div>
+    
+  <div id="lista">
+    
+ <h1>Porque é tão importante incentivar a leitura desde cedo?</h1>
+  <p class="pLeitura">O hábito de ler gera inúmeros benefícios para o indivíduo, tanto no desenvolvimento de sua capacidade cognitiva, como também no âmbito social e emocional. A leitura nos permite enxergar o mundo de formas diferentes, a cada leitura, um novo aprendizado.<br>
+
+Muito além de aprender línguas, regras e gramática, ler trata-se de desenvolver no ser humano a capacidade de interpretação.
+
+Infelizmente, vivemos em um contexto social onde a maioria das pessoas não tem o hábito de ler, as crianças não se interessam pela leitura e os pais e professores não dão o incentivo necessário nesse sentido. No máximo, as crianças fazem suas leituras obrigatórias passadas pela escola, ou seja, não há prazer na leitura.
+
+Precisamos mudar essa realidade para construir uma geração de valor, que entende o verdadeiro sentido da vida, que respeita a sociedade, e mais importante, que tenha capacidade de tomar suas próprias decisões e ser independentes.</p>
+
+  <center><img class="livro2" src="img/livro.jpg"></center>
+  
+
+  
+  <p class="pLeitura">O hábito da leitura deve começar com os pais, que precisam criar rotinas e momentos certos para essa atividade. É recomendado, inclusive, que mães leiam para o(a) filho(a) enquanto elas estiverem grávidas. Esse momento colabora para que o bebê reconheça a voz da mãe e crie laços emocionais com ela.<br><br>
+
+Aprender a ler é uma constante progressão no desenvolvimento da criança. Por esse motivo, existem diversos livros e cada um deles tem faixas etárias sugeridas. A melhor idade para começar a estimular a leitura é na primeira infância, por volta dos 3 anos.<br><br>
+
+Mesmo não estando na fase da alfabetização escolar, as crianças já têm experiências sensoriais e cognitivas significativas para compreenderem o mundo que as cerca. Assim, livros com muitas cores, desenhos, fantoches e elementos lúdicos são interessantes para desenvolver o raciocínio dos pequenos leitores.<br><br>
+    
+  Esses estímulos cognitivos desempenham um papel fundamental na formação das capacidades cerebrais e habilidades mentais, que acompanharão a criança por toda a vida. Crianças são curiosas por natureza, e utilizar essa curiosidade na leitura é um diferencial para prender a atenção delas.
+
+Procure sempre dar o livro na mão do(a) seu(sua) filho(a) e deixá-lo(a) brincar e entender aquele objeto. Além disso, aponte para os personagens enquanto lê a história. Essas referências o(a) ajudarão a entender o que a história conta e quais são o papel e a figura dos personagens.</p>
+  
+  <hr>
+  
+  <br>
+  <h1>Alguns benefícios da leitura:</h1>
+<br>
+ <h2>1-Estímulo Mental</h2>
+  <p class="pLeitura">Ler desafia o cérebro, estimulando a atividade cerebral e prevenindo o declínio cognitivo à medida que envelhecemos.</p>
+
+<h2>2-Melhoria da Habilidade de Comunicação</h2>
+  <p class="pLeitura">A leitura regular aumenta o vocabulário e a compreensão da gramática, o que pode melhorar a habilidade de comunicação escrita e verbal.</p>
+
+  <h2>3-Aprimoramento do Foco e Concentração</h2>
+  <p class="pLeitura">Ler exige concentração, o que pode ajudar a melhorar a habilidade de focar em outras atividades também.</p> 
+
+  <h2>4-Redução do Estresse</h2>
+  <p class="pLeitura">A leitura pode ser uma forma eficaz de escapar do estresse diário, proporcionando momentos de relaxamento e entretenimento.</p> 
+  
+</div>
+  
+  <hr>
+
+  <br>
+  
+<div class="containerTudo3">
+
+  <div class="containerImg4">
+  <img src="https://c.tenor.com/bID_Rze3HIgAAAAC/basta-ler.gif" />
+  </div>
+
+  <div class="containerTexto4">
+  <p class="pLeitura">Em resumo, a leitura não é apenas uma atividade acadêmica ou de lazer; é uma ferramenta fundamental para o crescimento individual e coletivo. Ao reconhecermos e valorizarmos a importância da leitura, capacitamos a nós mesmos e à sociedade a alcançar novos patamares de compreensão, sabedoria e prosperidade. Portanto, incentivemos e cultivemos o hábito da leitura, pois, por meio dela, abrimos as portas para um mundo vasto de conhecimento e possibilidades.</p>
+
+   
+    
+  </div>
+  
+</div>
+  <br>
+   <hr>
+ <h1>Porcentagem de leitores por região no Brasil no ano de 2015</h1>
+
+  <canvas class="barra-chart"></canvas> 
+  
+  <hr>
+
+<div class="quiz">
+  <h1>Quiz sobre alguns livros❤</h1>
+
+   <h2 id="h2Quiz">Você está participando de um quiz 
+ sobre livros.<br><br> 1 - pergunta: Qual é o nome do 
+ autor de "One Piece"?<br>Selecione uma das opções 
+ abaixo:</h2> 
+     <p><button id='btn1'>a) Hiromu Arakawa</button>
+     <button id='btn2'>b) Yoshihiro Togashi</button>
+     <button id='btn3'>c) Eiichiro Oda</button>
+     <button id='btn4'>d) Masashi Kishimoto</button></p>
+  <div id='resp'></div>
+  
+  <hr>
+
+  <h2>2 - Pergunta: Qual foi o quinto marido de Evelyn Hugo? (Os sete maridos de Evelyn Hugo)<br>Selecione uma das opções abaixo:</h2> 
+     <p><button id='btn5'>a) Max Girard</button>
+     <button id='btn6'>b) Harry Cameron</button>
+     <button id='btn7'>c) Don Adler</button>
+     <button id='btn8'>d) Ernie Diaz </button></p>
+  <div id='resp2'></div>
+
+<hr>
+
+  <h2>3 - Pergunta: Um dos temas que o livro "É Assim que Acaba" aborda é?<br>Selecione uma das opções abaixo:</h2> 
+       <p><button id='btn9'>a) Violência domésticaa</button>
+       <button id='btn10'>b) Transtorno alimentar</button>
+       <button id='btn11'>c) Racismo</button>
+       <button id='btn12'>d) Abuso sexual</button></p>
+    <div id='resp3'></div>
+
+<hr>
+
+  <h2>4 - Pergunta: Em que ano foi lançado o primeiro livro de Harry Potter?<br>Selecione uma das opções abaixo:</h2> 
+         <p><button id='btn13'>a) 1996</button>
+         <button id='btn14'>b) 1997</button>
+         <button id='btn15'>c) 1998</button>
+         <button id='btn16'>d) 1999</button></p>
+      <div id='resp4'></div>
+
+  <hr>
+
+  <h2>5 - Pergunta: Como rufus morreu? (Os dois Morrem no Final<br>Selecione uma das opções abaixo:</h2> 
+         <p><button id='btn17'>a) Ele foi queimado</button>
+         <button id='btn18'>b) Ele morreu afogado</button>
+         <button id='btn19'>c) Cometeu suicídio</button>
+         <button id='btn20'>d) Ele foi atropelado</button></p>
+      <div id='resp5'></div>
+  
+</div>
+
+  
+   <hr>
+  <div class="containerImagem2">
+    <div class="img4"> <img src='img/imageRodape.jpg'> </div>
+  </div>
+
+<script src="grafico.js"></script>
+  <script src="quiz.js"></script>
+
+</body>

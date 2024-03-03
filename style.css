@@ -1,0 +1,780 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/*cabeçalho*/
+
+.opçoes {
+  background-image: url('img/imageBanner.png');
+  background-size: cover;
+  background-position-y: center;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 50vh;
+  width: 100%;
+}
+
+
+
+.opçoes ul {
+  list-style-type: none;
+  margin-left: 35vh;
+
+
+}
+
+.opçoes ul li {
+  display: inline;
+  
+
+}
+
+.opçoes ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 2vw;
+}
+
+.opçoes ul li a:hover {
+  color: #ff5cab;
+}
+
+.opçoes li {
+  font-size: 30px;
+}
+
+
+/*fim cabeçalho*/
+
+
+
+/*generos*/
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex; 
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+/*links na parte de navegação*/
+.sessão {
+  padding: 5px 30px;
+}
+
+.tab-links {
+  background-color: #fd86c0; 
+  list-style-type: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  width: 17vw;
+  height: 25vw;
+
+}
+
+.tab-links button {
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 2vw;
+  color: black;
+  background-color: #fd86c0; 
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  width: 15vw;
+  height: 5vw;
+}
+
+.tab-links button:hover {
+  background-color: #c7feff;
+  border: 2px solid black;
+
+}
+
+
+.tab-links button.active {
+  background-color: #c7feff;
+  border: 2px solid black;
+}
+
+.tab-contents section {
+  display: none;
+}
+
+/*fim links*/
+
+/*sessões livros*/
+
+.rating {
+  color: #ffd747;
+  font-size: 2vw;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+#romance {
+  border: 2px solid #000000;
+  width: 97%;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+#terror {
+  border: 2px solid #000000;
+  width: 97%;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+#fantasia {
+  border: 2px solid #000000;
+  width: 97%;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+#manga {
+  border: 2px solid #000000;
+  width: 97%;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+
+
+.livro {
+  display:inline-block; 
+  width: 20%; 
+  text-align: center;
+  font-size: 84%;
+  border-radius: 20px;
+  margin:20px; 
+}
+
+
+.img2 img { /*imagem principal*/
+  width: 150vw;
+  height: 26vw;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 25px 4px #b61acb;
+}
+
+.pLeitura{
+  font-size: 2vw;
+}
+
+.pAutores{
+  font-size: 22px;
+}
+
+.pInicio{
+   font-size: 22px;
+}
+
+.h2Modal{
+  font-size: 2em;
+  color: black;
+  font-family: 'Pacifico', cursive;
+}
+
+.imageModal img{
+  width: 50vw;
+  height: 18vw;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.pModal{
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+.modal{
+  border-radius: 25px;
+  border: 3px solid black;
+  width: 75vw;
+  height: 55vw;
+  animation: animate;
+  animation-duration: 800ms;
+  background-color: #ffd6f6;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.img1 img:hover {
+   box-shadow: 5px 5px 25px 4px #ec0e8f;
+}  
+
+@keyframes animate{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+
+.fechar{
+   width: 30px;
+   height: 30px;
+   background-color:rgba(168, 249, 255, 0.9);
+   border-radius: 55%;
+   float: right;
+   cursor: pointer;
+   font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   border: 2px solid black;
+}
+
+.fechar span{
+color:rgba(255, 0, 0, 0.9);
+
+}
+
+ 
+.img1 img {  /*imagem dos livros*/
+  margin-top: 15px;
+  border: 1px solid black;
+  width: 15vw;
+  height: 20vw;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+
+
+.img3 img {
+  width: 70vw;
+  height: 60vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.img4 img {
+  width: 100vw;
+  height: 15vw;
+  max-width: 100%;
+  max-height: 100%;
+} 
+
+.img5 img {
+  width: 53vw;
+  height: 55vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  font-family: 'Pacifico', cursive;
+}
+
+.containerTudo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.containerTexto { grid-area: 1 / 1 / 5 / 4; }
+.containerImagem { grid-area: 1 / 4 / 5 / 7; }
+.containerImagem2 { grid-area: 5 / 1 / 6 / 7; }
+/*fim sessões*/
+
+/*fim generos*/
+
+
+
+/*paginas abertas*/
+.homeAb{
+  background-color: #c7feff;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.lidosAb {
+  background-color: #c7feff;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.autorAb {
+  background-color: #c7feff;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.leituraAb {
+  background-color: #c7feff;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.recomAb {
+  background-color: #c7feff;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#cabeçalho {
+  width: 100wh;
+  position: relative;
+  text-align: center;
+}
+/*fim abertos*/
+
+
+/*linha verde e grid da parte de recom*/
+.containerTudo2 {
+display: grid;
+grid-template-areas: ;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.containerImagem3 { grid-area: 1 / 1 / 7 / 5; }
+.containerSlide { grid-area: 1 / 5 / 7 / 9; }
+
+ 
+.b {
+  color: black;
+  position: relative;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.b::after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 3px;
+  background-color: #c90bfe;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
+/*pagina autores e incentivo*/
+
+.autor1 {
+  width: 45vw;
+  height: 57vw;
+  border: 3px solid black;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.autor2 {
+  width: 45vw;
+  height: 44vw;
+  border: 3px solid black;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.autor3 {
+  width: 45vw;
+  height: 60vw;
+  border: 3px solid black;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.autor4 {
+  width: 45vw;
+  height: 48vw;
+  border: 3px solid black;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Collen {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px
+}
+
+.collen1 { grid-area: 1 / 1 / 6 / 5; 
+       padding-left: 20px;
+       padding-top: 30px;
+   
+      }
+.collen2 { grid-area: 1 / 5 / 6 / 9; 
+      padding-right: 70px; 
+      }
+
+
+
+.Alice {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px
+}
+
+.alice1 { grid-area: 1 / 1 / 6 / 5; 
+       padding-left: 20px;
+       padding-top: 20px;
+
+      }
+.alice2 { grid-area: 1 / 5 / 6 / 9; 
+      padding-right: 110px; 
+      }
+
+
+
+.Adam {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px
+}
+
+.adam1 { grid-area: 1 / 1 / 6 / 5; 
+       padding-left: 20px;
+       padding-top: 20px;
+
+      }
+.adam2 { grid-area: 1 / 5 / 6 / 9; 
+      padding-right: 110px; 
+      }
+
+
+
+.Raphael {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px
+}
+
+.raphael1 { grid-area: 1 / 1 / 6 / 5; 
+       padding-left: 20px;
+       padding-top: 31px;
+      }
+
+.raphael2 { grid-area: 1 / 5 / 6 / 9; 
+      padding-right: 110px; 
+      }
+
+
+h1 {
+  text-align: center;
+  color: #d704c5
+}
+
+h2{
+  text-align: center;
+  color: #000000
+}
+
+.livro2 {
+  width: 70vw;
+  height: 40vw;
+  border: 3px solid black;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ol {
+  font-size: 25px;
+}
+
+#lista {
+  text-align: center;
+}
+
+/*fim autores e incentivo*/
+
+
+
+
+
+/*css da h1 de recomen*/
+#h1rec {
+  font-size: 45px;
+  margin-top: 40px;
+}
+/*fim h1*/
+
+
+/*slides*/
+
+.slider {
+  border: solid 3px black;
+  margin: auto;
+  width: 440px;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s
+}
+
+.manual-navigation {
+  position: absolute;
+  margin-top: 240px;
+  display: flex;
+  
+}
+
+.manual-btn {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: #ed0ce6;
+}
+
+#radio1:checked~.first {
+  margin-left: 0;
+}
+
+#radio2:checked~.first {
+  margin-left: -440px;
+}
+
+#radio3:checked~.first {
+  margin-left: -880px;
+}
+
+#radio4:checked~.first {
+  margin-left: -1320px;
+}
+
+#radio5:checked~.first {
+  margin-left: -1760px;
+}
+
+#radio6:checked~.first {
+  margin-left: -2200px;
+}
+
+#radio7:checked~.first {
+  margin-left: -2640px;
+}
+
+#radio8:checked~.first {
+  margin-left: -3080px;
+}
+
+#radio9:checked~.first {
+  margin-left: -3520px;
+}
+
+
+/*fim slide*/
+
+/*inicio quiz*/
+
+.quiz {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 70px;
+  border: solid 3px black;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+button{
+  border: solid 4px #000000;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor:pointer;
+  color: #000000;
+  background-color: #ff7aed;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+#btn1:hover{
+  background-color:#ffa552
+}
+#btn2:hover{
+  background-color:#4dff6a
+}
+#btn3:hover{
+  background-color:#fbff00
+}
+#btn4:hover{
+  background-color:#34fefb
+}
+
+
+#btn5:hover{
+  background-color:#ffa552
+}
+#btn6:hover{
+  background-color:#4dff6a
+}
+#btn7:hover{
+  background-color:#fbff00
+}
+#btn8:hover{
+  background-color:#34fefb
+}
+
+
+
+#btn9:hover{
+  background-color:#ffa552
+}
+#btn10:hover{
+  background-color:#4dff6a
+}
+#btn11:hover{
+  background-color:#fbff00
+}
+#btn12:hover{
+  background-color:#34fefb
+}
+
+
+#btn13:hover{
+  background-color:#ffa552
+}
+#btn14:hover{
+  background-color:#4dff6a
+}
+#btn15:hover{
+  background-color:#fbff00
+}
+#btn16:hover{
+  background-color:#34fefb
+}
+
+
+#btn17:hover{
+  background-color:#ffa552
+}
+#btn18:hover{
+  background-color:#4dff6a
+}
+#btn19:hover{
+  background-color:#fbff00
+}
+#btn20:hover{
+  background-color:#34fefb
+}
+
+#resp{
+  color: #000000;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#resp2{
+  color: #000000;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#resp3{
+  color: #000000;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#resp4{
+  color: #000000;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#resp5{
+  color: #000000;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#h2Quiz {
+  text-align: center;
+  color: #000000;
+}
+/*fim quiz*/
+
+.containerTudo3 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr); 
+  }
+
+.containerImg4 { 
+    grid-area: 1 / 1 / 8 / 5; 
+    margin-left: 95px;
+  }
+
+.containerTexto4 { 
+    grid-area: 1 / 5 / 8 / 9; 
+  }
