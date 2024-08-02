@@ -4,16 +4,16 @@ Apresentarei agora todas as páginas que se encontram no site:
 
 **Home**
 
-Esta é a página inicial, onde você encontrará uma seleção diversificada de gêneros de livros, acompanhada de suas sinopses. Navegue por diferentes categorias e descubra novas leituras que atendem aos seus interesses.
+<p>Esta é a página inicial, onde você encontrará uma seleção diversificada de gêneros de livros, acompanhada de suas sinopses. Navegue por diferentes categorias e descubra novas leituras que atendem aos seus interesses.</p>
 <div>
   <img src="Home.gif" alt="Home" style="max-width: 1000px; width: 100%; height: auto;">
 </div>
 
 **Recomendações**
 
-Esta é a página de recomendações, onde você encontrará um carrossel interativo exibindo os livros recomendados pelo Bolt.
+<p>Esta é a página de recomendações, onde você encontrará um carrossel interativo exibindo os livros recomendados pelo Bolt.</p>
 <div>
-  <img src="Recomendações.gif" alt="Recomendações" style="max-width:1000px; width: 100%; height: auto;">
+  <img src="Recomendações.gif" alt="Recomendações" style="max-width: 1000px; width: 100%; height: auto;">
 </div>
 
 
