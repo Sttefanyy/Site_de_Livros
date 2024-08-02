@@ -13,7 +13,7 @@ Apresentarei agora todas as páginas que se encontram no site:
 
 <p>Esta é a página de recomendações, onde você encontrará um carrossel interativo exibindo os livros recomendados pelo Bolt.</p>
 <div>
-  <img src="Recomendações.gif" alt="Recomendações">
+  <img src="Recomendações.gif" alt="Recomendações" style="max-width: 100px; width: 100%; height: auto;">
 </div>
 
 
