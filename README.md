@@ -6,14 +6,14 @@ Apresentarei agora todas as páginas que se encontram no site:
 
 <p>Esta é a página inicial, onde você encontrará uma seleção diversificada de gêneros de livros, acompanhada de suas sinopses. Navegue por diferentes categorias e descubra novas leituras que atendem aos seus interesses.</p>
 <div>
-  <img src="Home.gif" alt="Home" style="max-width: 1000px; width: 100%; height: auto;">
+  <img src="Home.gif" alt="Home">
 </div>
 
 **Recomendações**
 
 <p>Esta é a página de recomendações, onde você encontrará um carrossel interativo exibindo os livros recomendados pelo Bolt.</p>
 <div>
-  <img src="Recomendações.gif" alt="Recomendações" style="max-width: 1000px; width: 100%; height: auto;">
+  <img src="Recomendações.gif" alt="Recomendações">
 </div>
 
 
@@ -22,7 +22,7 @@ Apresentarei agora todas as páginas que se encontram no site:
 Esta é uma pagina onde fala um pouco da vida de alguns autores e suas obras.
 
 <div>
-  <img src="Autores.gif" alt="Autores" style="max-width:1000px; width: 100%; height: auto;">
+  <img src="Autores.gif" alt="Autores">
 </div>
 
 
@@ -30,7 +30,7 @@ Esta é uma pagina onde fala um pouco da vida de alguns autores e suas obras.
 
 Esta página tem como objetivo principal incentivar a leitura. Além disso, ela apresenta um gráfico que mostra as regiões do país com o maior número de leitores. Ao lado do gráfico, você encontrará um quiz sobre diversas histórias, proporcionando uma forma interativa e educativa de engajar os visitantes.
 <div>
-  <img src="Incentivo.gif" alt="Autores" style="max-width:1000px; width: 100%; height: auto;">
+  <img src="Incentivo.gif" alt="Autores"">
 </div>
 
 
